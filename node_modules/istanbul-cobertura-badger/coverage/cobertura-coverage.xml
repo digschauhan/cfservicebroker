@@ -1,0 +1,220 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="114"  lines-covered="105"  line-rate="0.9211"  branches-valid="64"  branches-covered="54"  branch-rate="0.8438"  timestamp="1450286897793" complexity="0" version="0.1">
+<sources>
+	<source>/home/mdesales/dev/github/intuit/istanbul-cobertura-badger</source>
+</sources>
+<packages>
+	<package name="lib"  line-rate="0.9211"  branch-rate="0.8438" >
+	<classes>
+		<class name="coberturaReportParser.js"  filename="lib/coberturaReportParser.js"  line-rate="1"  branch-rate="0.9167000000000001" >
+		<methods>
+			<method name="processReport"  hits="3"  signature="()V" >
+				<lines><line number="13"  hits="3" /></lines>
+			</method>
+			<method name="(anonymous_2)"  hits="10"  signature="()V" >
+				<lines><line number="16"  hits="10" /></lines>
+			</method>
+			<method name="processPackage"  hits="12"  signature="()V" >
+				<lines><line number="33"  hits="12" /></lines>
+			</method>
+			<method name="(anonymous_4)"  hits="16"  signature="()V" >
+				<lines><line number="36"  hits="16" /></lines>
+			</method>
+			<method name="processClass"  hits="24"  signature="()V" >
+				<lines><line number="54"  hits="24" /></lines>
+			</method>
+			<method name="(anonymous_6)"  hits="96"  signature="()V" >
+				<lines><line number="60"  hits="96" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="3"  hits="1"  branch="false" />
+			<line number="13"  hits="1"  branch="false" />
+			<line number="14"  hits="3"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="16"  hits="1"  branch="false" />
+			<line number="17"  hits="10"  branch="false" />
+			<line number="21"  hits="2"  branch="false" />
+			<line number="33"  hits="1"  branch="false" />
+			<line number="34"  hits="12"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="36"  hits="4"  branch="false" />
+			<line number="37"  hits="16"  branch="false" />
+			<line number="42"  hits="8"  branch="false" />
+			<line number="54"  hits="1"  branch="false" />
+			<line number="55"  hits="24"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="56"  hits="3"  branch="false" />
+			<line number="58"  hits="21"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="60"  hits="20"  branch="false" />
+			<line number="61"  hits="96"  branch="false" />
+			<line number="63"  hits="96"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="67"  hits="1"  branch="false" />
+			<line number="68"  hits="1"  branch="true"  condition-coverage="50% (1/2)" />
+		</lines>
+		</class>
+		<class name="defaultThresholds.js"  filename="lib/defaultThresholds.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+		</methods>
+		<lines>
+			<line number="9"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="downloader.js"  filename="lib/downloader.js"  line-rate="0.8443999999999999"  branch-rate="0.7813" >
+		<methods>
+			<method name="downloader"  hits="12"  signature="()V" >
+				<lines><line number="17"  hits="12" /></lines>
+			</method>
+			<method name="gettingStats"  hits="7"  signature="()V" >
+				<lines><line number="38"  hits="7" /></lines>
+			</method>
+			<method name="requestHandler"  hits="6"  signature="()V" >
+				<lines><line number="43"  hits="6" /></lines>
+			</method>
+			<method name="(anonymous_4)"  hits="14"  signature="()V" >
+				<lines><line number="50"  hits="14" /></lines>
+			</method>
+			<method name="(anonymous_5)"  hits="4"  signature="()V" >
+				<lines><line number="54"  hits="4" /></lines>
+			</method>
+			<method name="(anonymous_6)"  hits="4"  signature="()V" >
+				<lines><line number="58"  hits="4" /></lines>
+			</method>
+			<method name="(anonymous_7)"  hits="4"  signature="()V" >
+				<lines><line number="67"  hits="4" /></lines>
+			</method>
+			<method name="(anonymous_8)"  hits="0"  signature="()V" >
+				<lines><line number="88"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="3"  hits="1"  branch="false" />
+			<line number="4"  hits="1"  branch="false" />
+			<line number="5"  hits="1"  branch="false" />
+			<line number="6"  hits="1"  branch="false" />
+			<line number="8"  hits="1"  branch="false" />
+			<line number="17"  hits="1"  branch="false" />
+			<line number="19"  hits="12"  branch="true"  condition-coverage="100% (4/4)" />
+			<line number="20"  hits="2"  branch="false" />
+			<line number="22"  hits="10"  branch="true"  condition-coverage="100% (4/4)" />
+			<line number="23"  hits="1"  branch="false" />
+			<line number="25"  hits="9"  branch="true"  condition-coverage="100% (4/4)" />
+			<line number="26"  hits="1"  branch="false" />
+			<line number="28"  hits="8"  branch="true"  condition-coverage="100% (4/4)" />
+			<line number="29"  hits="1"  branch="false" />
+			<line number="32"  hits="7"  branch="true"  condition-coverage="50% (1/2)" />
+			<line number="35"  hits="7"  branch="false" />
+			<line number="38"  hits="7"  branch="false" />
+			<line number="39"  hits="7"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="40"  hits="1"  branch="false" />
+			<line number="43"  hits="6"  branch="false" />
+			<line number="44"  hits="6"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="45"  hits="2"  branch="false" />
+			<line number="48"  hits="4"  branch="false" />
+			<line number="50"  hits="4"  branch="false" />
+			<line number="51"  hits="14"  branch="false" />
+			<line number="54"  hits="4"  branch="false" />
+			<line number="55"  hits="4"  branch="false" />
+			<line number="58"  hits="4"  branch="false" />
+			<line number="59"  hits="4"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="60"  hits="1"  branch="false" />
+			<line number="61"  hits="1"  branch="true"  condition-coverage="50% (1/2)" />
+			<line number="62"  hits="1"  branch="false" />
+			<line number="64"  hits="1"  branch="false" />
+			<line number="67"  hits="4"  branch="false" />
+			<line number="68"  hits="4"  branch="true"  condition-coverage="50% (1/2)" />
+			<line number="69"  hits="0"  branch="false" />
+			<line number="73"  hits="4"  branch="false" />
+			<line number="80"  hits="4"  branch="false" />
+			<line number="88"  hits="6"  branch="false" />
+			<line number="89"  hits="0"  branch="true"  condition-coverage="0% (0/2)" />
+			<line number="90"  hits="0"  branch="true"  condition-coverage="0% (0/2)" />
+			<line number="91"  hits="0"  branch="false" />
+			<line number="94"  hits="0"  branch="false" />
+			<line number="95"  hits="0"  branch="false" />
+			<line number="96"  hits="0"  branch="false" />
+		</lines>
+		</class>
+		<class name="index.js"  filename="lib/index.js"  line-rate="0.9523999999999999"  branch-rate="0.9" >
+		<methods>
+			<method name="istanbulCoberturaBadger"  hits="4"  signature="()V" >
+				<lines><line number="19"  hits="4" /></lines>
+			</method>
+			<method name="(anonymous_2)"  hits="4"  signature="()V" >
+				<lines><line number="34"  hits="4" /></lines>
+			</method>
+			<method name="(anonymous_3)"  hits="3"  signature="()V" >
+				<lines><line number="49"  hits="3" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="4"  hits="1"  branch="false" />
+			<line number="5"  hits="1"  branch="false" />
+			<line number="6"  hits="1"  branch="false" />
+			<line number="7"  hits="1"  branch="false" />
+			<line number="8"  hits="1"  branch="false" />
+			<line number="11"  hits="1"  branch="false" />
+			<line number="19"  hits="1"  branch="false" />
+			<line number="21"  hits="4"  branch="false" />
+			<line number="34"  hits="4"  branch="false" />
+			<line number="35"  hits="4"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="36"  hits="1"  branch="false" />
+			<line number="40"  hits="3"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="44"  hits="3"  branch="false" />
+			<line number="47"  hits="3"  branch="false" />
+			<line number="49"  hits="3"  branch="false" />
+			<line number="50"  hits="3"  branch="true"  condition-coverage="50% (1/2)" />
+			<line number="51"  hits="0"  branch="false" />
+			<line number="54"  hits="3"  branch="false" />
+			<line number="55"  hits="3"  branch="false" />
+			<line number="56"  hits="3"  branch="false" />
+			<line number="58"  hits="3"  branch="false" />
+		</lines>
+		</class>
+		<class name="istanbulReportParser.js"  filename="lib/istanbulReportParser.js"  line-rate="0.963"  branch-rate="0.9" >
+		<methods>
+			<method name="parseIstanbulReport"  hits="6"  signature="()V" >
+				<lines><line number="15"  hits="6" /></lines>
+			</method>
+			<method name="(anonymous_2)"  hits="5"  signature="()V" >
+				<lines><line number="21"  hits="5" /></lines>
+			</method>
+			<method name="parsingCoverageTag"  hits="3"  signature="()V" >
+				<lines><line number="34"  hits="3" /></lines>
+			</method>
+			<method name="handlingError"  hits="3"  signature="()V" >
+				<lines><line number="60"  hits="3" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="3"  hits="1"  branch="false" />
+			<line number="4"  hits="1"  branch="false" />
+			<line number="5"  hits="1"  branch="false" />
+			<line number="7"  hits="1"  branch="false" />
+			<line number="15"  hits="1"  branch="false" />
+			<line number="16"  hits="6"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="17"  hits="1"  branch="false" />
+			<line number="21"  hits="5"  branch="false" />
+			<line number="22"  hits="5"  branch="true"  condition-coverage="100% (4/4)" />
+			<line number="23"  hits="1"  branch="false" />
+			<line number="25"  hits="4"  branch="true"  condition-coverage="50% (1/2)" />
+			<line number="26"  hits="0"  branch="false" />
+			<line number="30"  hits="4"  branch="false" />
+			<line number="31"  hits="4"  branch="false" />
+			<line number="34"  hits="4"  branch="false" />
+			<line number="37"  hits="3"  branch="false" />
+			<line number="43"  hits="3"  branch="false" />
+			<line number="46"  hits="3"  branch="false" />
+			<line number="47"  hits="3"  branch="false" />
+			<line number="48"  hits="3"  branch="false" />
+			<line number="51"  hits="3"  branch="false" />
+			<line number="53"  hits="3"  branch="false" />
+			<line number="61"  hits="3"  branch="false" />
+			<line number="62"  hits="3"  branch="false" />
+			<line number="63"  hits="3"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="64"  hits="1"  branch="false" />
+			<line number="65"  hits="1"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+</packages>
+</coverage>
